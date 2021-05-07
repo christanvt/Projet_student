@@ -1,10 +1,15 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}User index
+
 {% endblock %}
 
 {% block body %}
-	<h1>User index</h1>
+	<h1>User index
+		{% if app.request.get('_route') == 'user_index_admin' %}
+			for ROLE_ADMIN
+		{% endif %}
+	</h1>
 
 	<table class="table">
 		<thead>
@@ -41,6 +46,8 @@
 			{% endfor %}
 		</tbody>
 	</table>
+	{% if app.request.get('_route') == 'user_index' %}
+		<a href="{{ path('user_new') }}">Create new</a>
+	{% endif %}
 
-	<a href="{{ path('user_new') }}">Create new</a>
 {% endblock %}
