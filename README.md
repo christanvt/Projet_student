@@ -1,30 +1,31 @@
-ECF - Part 1 - Projet student - BDD
+# ECF - Part 1 - Projet student - BDD
 
-Install
-Clone and install required packages :
+## Install
 
-git clone https://github.com/christanvt/Projet_student.git
-cd Projet_student
-composer install
+### Clone and install required packages :
 
-Configure database access (change db_user and db_password to your needs) :
+    git clone https://github.com/christanvt/Projet_student.git
+    cd Projet_student
+    composer install
 
-echo "APP_ENV=dev" > .env.local
-echo "# APP_DEBUG=0" > .env.local
-echo "APP_SECRET=secret" >> .env.local
-echo "DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/src_symfony_3_4" >> .env.local
+### Configure database access (change db_user and db_password to your needs) :
 
-Create database :
+    echo "APP_ENV=dev" > .env.local
+    echo "# APP_DEBUG=0" > .env.local
+    echo "APP_SECRET=secret" >> .env.local
+    echo "DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/Projet_student" >> .env.local
 
-php bin/console doctrine:database:create
-php bin/console doctrine:migrations:migrate
+### Create database :
 
-Load required fixtures :
+    php bin/console doctrine:database:create
+    php bin/console doctrine:migrations:migrate
 
-php bin/console doctrine:fixtures:load required
+### Load required fixtures :
 
-Test fixtures
+    php bin/console doctrine:fixtures:load required
 
-Load test fixtures :
+## Test fixtures
 
-php bin/console doctrine:fixtures:load
+### Load test fixtures :
+
+    php bin/console doctrine:fixtures:load
