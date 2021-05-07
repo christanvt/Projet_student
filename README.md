@@ -36,8 +36,8 @@
 
 ### start the web server :
 
-cd Projet_student
-symfony server:start
+    cd Projet_student
+    symfony server:start
 
 ### Url for data access :
 
