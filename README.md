@@ -1,6 +1,11 @@
 # ECF - Part 1 à Part 3 - Projet student
 
 <p align="center">
+  <img width="460" height="300" src="https://cdn.pixabay.com/photo/2016/12/09/18/30/database-schema-1895779_1280.png">
+</p>
+<p align="center" ><em>image source : Pixabay</em></p>
+
+<p align="center">
   <img height="30" src="https://img.shields.io/badge/Symfony-lightgrey?style=flat&logo=symfony&logoColor=white&labelColor=black">
   <img height="30" src="https://img.shields.io/badge/MariaDB-lightgrey?style=flat&logo=mariadb&logoColor=white&labelColor=red">
   <img height="30" src="https://img.shields.io/badge/Php-lightgrey?style=flat&logo=php&logoColor=white&labelColor=8892BF">
