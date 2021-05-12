@@ -6,10 +6,10 @@
 <p align="center" ><em>image source : Pixabay</em></p>
 
 <p align="center">
-  <img height="30" src="https://img.shields.io/badge/Symfony-lightgrey?style=flat&logo=symfony&logoColor=white&labelColor=black">
-  <img height="30" src="https://img.shields.io/badge/MariaDB-lightgrey?style=flat&logo=mariadb&logoColor=white&labelColor=red">
-  <img height="30" src="https://img.shields.io/badge/Php-lightgrey?style=flat&logo=php&logoColor=white&labelColor=8892BF">
-  <img height="30" src="https://img.shields.io/badge/Composer-lightgrey?style=flat&logo=composer&logoColor=44f&labelColor=eee">
+  <a href="https://symfony.com/"><img height="30" src="https://img.shields.io/badge/Symfony-lightgrey?style=flat&logo=symfony&logoColor=white&labelColor=black&link=http://left&link=http://right"></a>
+  <a href="https://mariadb.org/"><img height="30" src="https://img.shields.io/badge/MariaDB-lightgrey?style=flat&logo=mariadb&logoColor=white&labelColor=red"></a>
+  <a href="https://www.php.net/"><img height="30" src="https://img.shields.io/badge/Php-lightgrey?style=flat&logo=php&logoColor=white&labelColor=8892BF"></a>
+  <a href="https://getcomposer.org/"><img height="30" src="https://img.shields.io/badge/Composer-lightgrey?style=flat&logo=composer&logoColor=44f&labelColor=eee&Color=red"></a>
 </p>
 
 ## ECF - Part 1 - Projet student - BDD
